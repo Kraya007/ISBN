@@ -1,0 +1,13 @@
+Java Support Task
+
+To successfully guide the student out of the bug, I will firstly ask the student to walk me through the task background to ensure
+if they understand the task. Then, they will walk me through the code they have written in an attempt to solve Task 6 and help me 
+understand the root of the problem on the JOptionPane issue. Then, I will ask the student what they expect or rather what their 
+desired output behavior is when using JOptionPane.showDialog().
+I will confirm if their expectation corresponds with what the function is supposed to do. Once I have a clear understanding of 
+the student's problem, I will ask for the student to share their screen so I can see the code. Then, I will perform a step-over 
+bug tracking method line to line to find the exact or identify the error.
+I will examine the error and implement a solution and clearly explain the solution to the student and walk them through 
+the possible changes. I will ask the student to test the updated code to ensure their issue has been solved. Thereafter, 
+I will do a follow-up with the student to check if they have more problems or check on their progress and encourage them to be
+in touch if they encounter any difficulties again.
