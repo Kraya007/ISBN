@@ -1,0 +1,15 @@
+| | | | | | | | |
+|-|-|-|-|-|-|-|-|
+|Hey there!| | | | | | | |
+|I just received your code and let's dive right into it.| | | | | | | |
+| | | | | | | | |
+|Your code is well-structured| but there are some issues with its correctness. Firstly| the indentation is not correct| and this can lead to logic errors and undesired outputs. To fix this| please copy lines 3 to 10 and press the tab key to indent them. Lastly| in line 4| you need to fix your sorted method by including the for-loop counter "i". Once you have fixed these issues| your program should run as desired.|
+|the code looks minimal| which is perfect. Simplicity is key to improving your coding style. if possible always try to avoid the use of loops and conditional statements and explore the library. Loops and conditional statements pile on the complexity of your program. In this program| I'd suggest you import defaultdict from collections in line 3| initialize the string "result" to use defaultdict.| | | | |
+| | | | | | | | |
+|Line 3: result = defaultdict(list)| | | | | | | |
+| | | | | | | | |
+|Then| remove the if statement in line 6 and replace it with result[x].append(i) after the sort method. Okay| but we can both agree that this change is negligible in terms of performance. But it just makes it cleaner and easier to read| don't you agree?| | | | |
+| Like I pointed out| I love the minimal touch| bravo! But give your code more character| such as changing the wording of your programming by using actual words instead of abbreviations and characters. For instance| try "strings" instead of "strs" and "words" instead of "i".| | | |
+|This last bit is very important to note for future references. Code is just instructions to a computer| not your fellow humans. So| it can be difficult for them to try and understand your code as it is. Hence| I suggest you write the story of your code by commenting on lines using #. This is very important| especially if you are working on a team so that they can understand the trail. And for your future| believe me your uncommented code can also confuse you one day. Imagine being emailed and asked about a undocumented code you wrote years ago from your old job. Not cool.| | |
+|If you found this problem to be easy and you have the time to explore and spice it up with some creativity| try adding a function "anagramSearch" that opens and reads a file and outputs words that are considered anagram sets. Use the file "EnglishWords" that I'll attach. Also| in terms of documenting your code| research about docstrings. And I hope I was of good help!| | | | |
+| | | | | | | | |
