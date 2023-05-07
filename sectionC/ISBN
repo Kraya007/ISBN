@@ -1,0 +1,17 @@
+How to run:
+
+To run the program on an IDE, simply compile and run the file.
+
+Automation:
+
+To automate the running of the program, you can create a text file containing ISBNs and return a redirection file of valid or 
+invalid. Due to the lack of testing data, an array was assumed to be suitable. Please excuse me on that.
+
+Complexity:
+
+The best-case complexity for the program is O(1) because every operation takes a constant time operation such as removing spaces 
+and hyphens, checking the ISBN format, and calculating the number for the ISBN.
+
+The worst-case complexity is O(n). Hypothetically, if you were to increase the input size in terms of more ISBNs, the 
+complexity would change linearly. In this program, converting the ISBN numbers results in O(n), but this renders our best-case 
+complexity irrelevant since if we were to add up O(1) + O(1) + O(n) = O(n).
