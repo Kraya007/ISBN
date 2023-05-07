@@ -1,0 +1,11 @@
+The program is a typing game where words fall from the top of the screen at different speeds and the user must type them 
+correctly before they reach the bottom of the screen. The game continues until either the user types the specified
+maximum number of words correctly, misses three words, or quits the game. The user can also pause the game at any point. 
+
+race conditions:
+at increase speed multiple tests at different speed, at some speed it showed race conditions when typing a correct word the 
+simulation would halt but to ensure such doesn't easily occur I made sure all method  are synchronized and that variable are atomic 
+
+to run:
+on an ide just compile all files and run typingtutor app
+on linux environment use the makefile and use "java -cp bin typingTutor.TypingTutorApp <totalWords> <noOfWords> <file>"
